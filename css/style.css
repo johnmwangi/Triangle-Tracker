@@ -1,0 +1,16 @@
+body {
+  background-color: maroon;
+}
+
+h1 {
+  color: black;
+  font-style: italic;
+  text-align: center;
+
+p {
+  background-color: grey;
+  font-style: italic;
+}
+body {
+  background-color: gray;
+}
