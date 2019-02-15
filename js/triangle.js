@@ -1,14 +1,15 @@
-function check - triangle() {
-    var input1 = document.getElementById("element1").value
-    var input2 = document.getElementById("element2").value
-    var input3 = document.getElementById("element3").value
-    var forms = ['input1', 'input2', 'input3']
-    var sideA = parseInt("input1");
-    var sideB = parseInt("input2");
-    var sideC = parseInt("input3");
+function checkout()
+{
+inp1 = parseInt(document.Triangle_inputs.input 1.value);
+inp2 = parseInt(document.Triangle_inputs.input 2.value);
+inp3 = parseInt(document.Triangle_inputs.input 3.value);
+    side A = (inp1 + inp2);
+    side B = (inp1 + inp3);
+    side C = (inp + inp3);
+
     if (sideA === sideB && sideB === sideC); {
-      alert("Equilateral Traiangle");
-    } else if (sideA === sideB); {
+      alert("Equilateral Triangle");
+    } else if (sideA === sideB && != sideC); {
       alert("Isosceles Triangle");
     } else if (sideA !== sideB && sideB !== sideC); {
       alert("Scalene Triangle");
@@ -21,3 +22,4 @@ function check - triangle() {
     }else if(sideA + sideC && >= sideB); {
       alert("Not a triangle at all");
     }
+  }
