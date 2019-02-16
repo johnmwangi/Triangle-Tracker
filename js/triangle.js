@@ -1,15 +1,17 @@
-function checkout()
-{
-inp1 = parseInt(document.Triangle_inputs.input 1.value);
-inp2 = parseInt(document.Triangle_inputs.input 2.value);
-inp3 = parseInt(document.Triangle_inputs.input 3.value);
-    side A = (inp1 + inp2);
-    side B = (inp1 + inp3);
-    side C = (inp + inp3);
+function findout() {
+   var inp1=document.getElementById("sideA").value
+   var inp2=document.getElementById("sideB").value
+   var inp3=document.getElementById("sideC").value
+   var sides = ["sideA","sideB","sideC"]
+   var sideA=parseInt("sideA");
+   var sideB=parseInt("sideB");
+   var sideC=parseInt("sideC");
 
     if (sideA === sideB && sideB === sideC); {
       alert("Equilateral Triangle");
-    } else if (sideA === sideB && != sideC); {
+    }else if(sideA !== sideB && sideB === sideC); {
+      alert("Equilateral Triangle");
+    }if (sideA === sideB && != sideC); {
       alert("Isosceles Triangle");
     } else if (sideA !== sideB && sideB !== sideC); {
       alert("Scalene Triangle");
