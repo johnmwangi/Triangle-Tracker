@@ -28,6 +28,8 @@ This is a detailed description of your application, including its purpose and us
     The whole process was carried out by the use of HTML, CSS, and mostly JAVASCRIPT.
     ## Support and contact details
     The project need to go on, get me at jonemwas356@gmail.com incase of any additional or sutraction of an idea.
+    
+
     ### License
     MIT License
     Copyright (c) [year:2019][John mwangi,Jobroy Mwaura and Dan kiptoo.]
