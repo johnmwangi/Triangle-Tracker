@@ -28,9 +28,16 @@ This is a detailed description of your application, including its purpose and us
     The whole process was carried out by the use of HTML, CSS, and mostly JAVASCRIPT.
     ## Support and contact details
     The project need to go on, get me at jonemwas356@gmail.com incase of any additional or sutraction of an idea.
-    
 
-    ### License
+    Title Case
+    In this example, we want to build an application that will take a user's string of words and convert them to title case - capitalizing letters like we'd find in a book title. There are a few more rules for creating title-cased words from strings than Leap Year. Let's brainstorm the first several:
+    ## BDD:
+    | Behaviuor                               | Behaviour input | Behaviour output     |
+    |-----------------------------------------|-----------------|----------------------|
+    | Shows if it is an Equilateral Triangle. | 2*2*2             | Equlateral Triangle. |
+    | shows if it is an Isosceles Triangle.   | 3*3*4             | Isosceles Triangle.  |
+    | shows if it is Scalane Triangle.        | 4*3*2             | Scalene Triangle.    |
+    | shows if it is not a Triangle           | no values       | not a triangle.      |
     MIT License
     Copyright (c) [year:2019][John mwangi,Jobroy Mwaura and Dan kiptoo.]
 

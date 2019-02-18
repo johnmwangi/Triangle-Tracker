@@ -1,30 +1,20 @@
-function triangl.html:27() {
-  var inp1 = document.getElementById("formatedAddress").value;
-  var inp2 = document.getElementById("formatedAddress").value;
-  var inp3 = document.getElementById("formatedAddress").value;
-  var sides = ["side A", "side B", "side C"]
-  var side A = parseInt("data1");
-  var side B = parseInt("data2");
-  var side C = parseInt("data3");
+function findOut() {
+  var inp1 = document.getElementById("data1").value;
+  var inp2 = document.getElementById("data2").value;
+  var inp3 = document.getElementById("data3").value;
+  // var sides = [sideA, sideB, sideC];
+  var sideA = parseInt(inp1);
+  var sideB = parseInt(inp2);
+  var sideC = parseInt(inp3);
 
-  if (side A === side B && side B === side C); {
+  if (sideA == sideB && sideB == sideC){
     alert("Equilateral Triangle");
-    else if (side A !== side B && side === side C); {
-      alert("Equilateral Triangle");
-    }
-    if (side A === side B && != side C); {
+  } else if (sideA === sideB || sideB === sideC || sideA === sideC ){
       alert("Isosceles Triangle");
-    } else if (side A !== side B && side B !== side C); {
+    } else if (sideA !== sideB && sideB !== sideC && sideA !== sideC ){
       alert("Scalene Triangle");
-    } else if (side A + side B >= side C); {
-      alert("Scalene Triangle");
-    } else if (side A + side B && >= side C); {
-      alert("Not a triangle at all");
-    } else if (side B + side C && >= side A); {
-      alert("Not a triangle at all")
-    } else if (side A + side C && >= side B); {
-      alert("Not a triangle at all");
+    } else {
+      alert("Cannot form a Triangle");
     }
-  }
 
-}
+  }
