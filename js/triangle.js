@@ -1,4 +1,4 @@
-function findOut() {
+-function findOut() {
   var inp1 = document.getElementById("data1").value;
   var inp2 = document.getElementById("data2").value;
   var inp3 = document.getElementById("data3").value;
