@@ -14,7 +14,7 @@ function findOut() {
     } else if (sideA !== sideB && sideB !== sideC && sideA !== sideC ){
       alert("Scalene Triangle");
     } else if{sideA + sideB<=sideC || sideB + sideC<=sideA || sideA + sideC<=sideB ){
-      alert("Cannot form a triangle");
+      alert("Not a triangle");
     }
 
     }
