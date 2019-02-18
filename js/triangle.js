@@ -13,15 +13,9 @@ function findOut() {
     alert("Isosceles Triangle");
   } else if (sideA !== sideB && sideB !== sideC && sideA !== sideC) {
     alert("Scalene Triangle");
-<<<<<<< HEAD
+
   } else {
     alert("Cannot form a Triangle");
   }
-=======
-  } else if {
-    sideA + sideB <= sideC || sideB + sideC <= sideA || sideA + sideC <= sideB) {
-    alert("Not a triangle");
-  }
 
->>>>>>> gh-pages
 }
