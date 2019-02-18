@@ -13,7 +13,7 @@ function findOut() {
       alert("Isosceles Triangle");
     } else if (sideA !== sideB && sideB !== sideC && sideA !== sideC ){
       alert("Scalene Triangle");
-    } else {
+    } else if{sideA + sideB<=sideC || sideB + sideC<=sideA || sideA + sideC<=sideB ){
       alert("Cannot form a triangle");
     }
 
