@@ -7,13 +7,13 @@ function findOut() {
   var sideB = parseInt(inp2);
   var sideC = parseInt(inp3);
 
-  if (sideA == sideB && sideB == sideC){
+  if (sideA == sideB && sideB == sideC) {
     alert("Equilateral Triangle");
-  } else if (sideA === sideB || sideB === sideC || sideA === sideC ){
-      alert("Isosceles Triangle");
-    } else if (sideA !== sideB && sideB !== sideC && sideA !== sideC ){
-      alert("Scalene Triangle");
-    } else {
-      alert("Cannot form a Triangle");
-    }
+  } else if (sideA === sideB || sideB === sideC || sideA === sideC) {
+    alert("Isosceles Triangle");
+  } else if (sideA !== sideB && sideB !== sideC && sideA !== sideC) {
+    alert("Scalene Triangle");
+  } else {
+    alert("Cannot form a Triangle");
   }
+}
