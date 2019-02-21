@@ -6,7 +6,11 @@ p {
 }
 
 .hero-image {
+<<<<<<< HEAD
   background-image: url("confetti.jpg");
+=======
+  background-image: url("jjj.jpeg");
+>>>>>>> gh-pages
   height: 500px;
   width: 400px;
   margin-left: 425px;
@@ -19,7 +23,11 @@ body, html {
 }
 
 .hero-image {
+<<<<<<< HEAD
   background-image: url("ime.png");
+=======
+  background-image: url("mm.png");
+>>>>>>> gh-pages
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
