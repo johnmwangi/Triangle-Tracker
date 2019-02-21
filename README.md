@@ -36,7 +36,7 @@ This is a detailed description of your application, including its purpose and us
 | Shows if it is an Equilateral Triangle. | 222             | Equlateral Triangle. |
 | shows if it is an Isosceles Triangle.   | 334             | Isosceles Triangle.  |
 | shows if it is Scalane Triangle.        | 432             | Scalene Triangle.    |
-| shows if it is not a Triangle           | no values       | cannot form atriangle|
+| shows if it is not a Triangle           | no values       | not a triangle       |
 
     MIT License
     Copyright (c) [year:2019][John mwangi]
