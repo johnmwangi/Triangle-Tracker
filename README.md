@@ -7,8 +7,6 @@
 Caleb.
 Joshua.
 Ian.
-Lilian.
-Abednegoh.
 
 ## Description
 
@@ -38,10 +36,10 @@ This is a detailed description of your application, including its purpose and us
 | Shows if it is an Equilateral Triangle. | 222             | Equlateral Triangle. |
 | shows if it is an Isosceles Triangle.   | 334             | Isosceles Triangle.  |
 | shows if it is Scalane Triangle.        | 432             | Scalene Triangle.    |
-| shows if it is not a Triangle           | no values       | not a triangle.      |
+| shows if it is not a Triangle           | no values       | not a triangle       |
 
     MIT License
-    Copyright (c) [year:2019][John mwangi,Jobroy Mwaura and Dan kiptoo.]
+    Copyright (c) [year:2019][John mwangi]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
