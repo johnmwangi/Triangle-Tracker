@@ -7,21 +7,6 @@ function findOut() {
   var sideB = parseInt(inp2);
   var sideC = parseInt(inp3);
 
-<<<<<<< HEAD
-  if (sideA + sideB <= sideC || sideA + sideC <= sideB || sideB + sideC <= sideA) {
-    alert("Cannot form a triangle");
-  } else {
-    if (sideA == sideB && sideB == sideC) {
-      alert("Equilateral Triangle");
-    } else if (sideA === sideB || sideB === sideC || sideA === sideC) {
-      alert("Isosceles Triangle");
-    } else if (sideA !== sideB && sideB !== sideC && sideA !== sideC) {
-      alert("Scalene Triangle");
-
-    } else {
-      alert("Cannot form a Triangle");
-    }
-=======
   if (sideA === sideB && sideB === sideC && sideC === sideA) {
     alert("EQUILATERAL TRAIANGLE");
   } else if (sideA === sideB && sideA !== sideC) {
@@ -38,6 +23,6 @@ function findOut() {
     alert("NOT A TRIANGLE");
   } else if (sideB + sideC <= sideA) {
     alert("NOT A TRIANGLE");
->>>>>>> gh-pages
+
   }
 }
